@@ -10,7 +10,7 @@ $(function () {
     utils();
     sliding();
     contactForm();
-    map();
+    // map();
     counters();
     parallax();
     demo();
@@ -114,12 +114,14 @@ function animations() {
 
 function sliding() {
     $('.scrollTo, #navigation a').click(function (event) {
-	event.preventDefault();
-	var full_url = this.href;
-	var parts = full_url.split("#");
-	var trgt = parts[1];
+		event.preventDefault();
+		var full_url = this.href;
+		var parts = full_url.split("#");
+		var trgt = parts[1];
+		// alert(trgt);
 
-	$('body').scrollTo($('#' + trgt), 800, {offset: -80});
+		$('body').scrollTo($('#' + trgt), 800, {offset: -80});
+		// setTimeout(function() {window.scrollTo(0, y);},1)
 
     });
 }
