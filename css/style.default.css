@@ -172,7 +172,10 @@ INTRO
 }
 #intro .item {
   height: 100%;
-  background: url('../img/home.jpg') center center no-repeat;
+  /* background: url('../img/home.jpg') center center no-repeat; */
+  /* background: url('../img/laptop-modif.jpg') center center no-repeat; */
+  background: url('../img/markus-spiske-1.jpg') center center no-repeat;
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -211,7 +214,9 @@ INTRO
 }
 #intro .item h2 {
   color: #fff;
-  margin-bottom: 120px;
+  margin-bottom: 40px;
+  /* margin-left: 300px; */
+  /* text-align: right; */
   font-weight: 400;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -1164,7 +1169,7 @@ strong {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #3aa18c;
+  color: #507d92;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
