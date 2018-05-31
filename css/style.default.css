@@ -385,17 +385,17 @@ WORKS / REFERENCES
   }
 }
 .reference-item {
-  width: 255px;
+  width: 340px;
   overflow: hidden;
 }
 @media (max-width: 1199px) {
   .reference-item {
-    width: 205px;
+    width: 270px;
   }
 }
 @media (max-width: 991px) {
   .reference-item {
-    width: 300px;
+    width: 330px;
   }
 }
 @media (max-width: 350px) {
