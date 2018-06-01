@@ -1,10 +1,22 @@
 /*
 
+
 =====================
 BODY, HTML
 =====================
 
 */
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto.ttf);
+}
+
+@font-face {
+  font-family: RobotoSlab;
+  src: url(../fonts/RobotoSlab.ttf);
+}
+
 body {
   font-weight: 400;
 }
@@ -353,7 +365,7 @@ WORKS / REFERENCES
 #filter li {
   display: inline-block;
   list-style-type: none;
-  font-family: 'Roboto Slab', serif;
+  font-family: RobotoSlab, serif;
   margin-bottom: 30px;
   border-top: solid 1px #5d9cb4;
   border-bottom: solid 1px #5d9cb4;
@@ -798,7 +810,7 @@ FOOTER
   margin: 0;
   text-align: right;
   color: #eeeeee;
-  font-family: 'Roboto Slab', serif;
+  font-family: RobotoSlab, serif;
 }
 @media (max-width: 767px) {
   #footer p {
@@ -809,7 +821,7 @@ FOOTER
   margin-top: 20px;
   text-align: center;
   color: #999999;
-  font-family: 'Roboto Slab', serif;
+  font-family: RobotoSlab, serif;
   font-size: 14px;
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -994,7 +1006,7 @@ strong {
 }
 /* navbar */
 .navbar {
-  font-family: 'Roboto Slab', serif;
+  font-family: RobotoSlab, serif;
   min-height: 80px;
   margin-bottom: 30px;
   border-bottom: 1px solid transparent;
@@ -1060,7 +1072,7 @@ strong {
   float: left;
   padding: 29px 15px;
   color: #5d9cb4;
-  font-family: 'Roboto Slab', serif;
+  font-family: RobotoSlab, serif;
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 700;
@@ -1547,7 +1559,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Roboto Slab', serif;
+  font-family: RobotoSlab, serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
