@@ -2,6 +2,11 @@ if ($.cookie("theme_csspath")) {
     $('link#theme-stylesheet').attr("href", $.cookie("theme_csspath"));
 }
 
+$('.nav a').click(function(){
+    $('.navbar-collapse').collapse('hide');
+});
+
+
 $(function () {
 
     animations();
@@ -120,7 +125,7 @@ function sliding() {
 		var trgt = parts[1];
 		// alert(trgt);
 
-		$('body').scrollTo($('#' + trgt), 800, {offset: -80});
+		$('body').scrollTo($('#' + trgt), 800, {offset: -80});		
 		// setTimeout(function() {window.scrollTo(0, y);},1)
 
     });
